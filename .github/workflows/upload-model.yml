@@ -1,0 +1,31 @@
+name: Upload Model
+
+on:
+  workflow_dispatch:
+    inputs:
+      model_version:
+        description: 'Release tag for the model (e.g., model-v1)'
+        required: true
+        default: 'model-v1'
+      model_variant:
+        description: 'WhisperKit model variant name'
+        required: true
+        default: 'openai_whisper-large-v3_turbo'
+
+permissions:
+  contents: write
+
+jobs:
+  upload-model:
+    runs-on: macos-15
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Download and upload model
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          ./scripts/upload-model.sh \
+            "${{ inputs.model_variant }}" \
+            "${{ inputs.model_version }}"
