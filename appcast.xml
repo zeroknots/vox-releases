@@ -1,1 +1,19 @@
-<?xml version="1.0" encoding="utf-8"?><rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle"><channel><title>Vox</title></channel></rss>
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Vox</title>
+    <link>https://zeroknots.github.io/vox-releases/appcast.xml</link>
+    <item>
+      <title>Version 0.0.2-alpha</title>
+      <pubDate>Sun, 15 Feb 2026 06:51:15 +0000</pubDate>
+      <sparkle:version>18</sparkle:version>
+      <sparkle:shortVersionString>0.0.2-alpha</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <enclosure
+        url="https://github.com/zeroknots/vox-releases/releases/download/v0.0.2-alpha/Vox.dmg"
+        sparkle:edSignature="8uthte0ULiIhOTOnKaxBzkPLOLCD7pGq9CcjyPlcPMWrWyAywL40JVh7zer0h3DR7k5NCWKJB+inQASSoAhFCw==" length="3145182"
+        length="3145182"
+        type="application/octet-stream" />
+    </item>
+  </channel>
+</rss>
