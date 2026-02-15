@@ -4,15 +4,15 @@
     <title>Vox</title>
     <link>https://zeroknots.github.io/vox-releases/appcast.xml</link>
     <item>
-      <title>Version 0.0.2-alpha</title>
-      <pubDate>Sun, 15 Feb 2026 06:51:15 +0000</pubDate>
-      <sparkle:version>18</sparkle:version>
-      <sparkle:shortVersionString>0.0.2-alpha</sparkle:shortVersionString>
+      <title>Version 0.0.3-alpha</title>
+      <pubDate>Sun, 15 Feb 2026 07:16:12 +0000</pubDate>
+      <sparkle:version>19</sparkle:version>
+      <sparkle:shortVersionString>0.0.3-alpha</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <enclosure
-        url="https://github.com/zeroknots/vox-releases/releases/download/v0.0.2-alpha/Vox.dmg"
-        sparkle:edSignature="8uthte0ULiIhOTOnKaxBzkPLOLCD7pGq9CcjyPlcPMWrWyAywL40JVh7zer0h3DR7k5NCWKJB+inQASSoAhFCw==" length="3145182"
-        length="3145182"
+        url="https://github.com/zeroknots/vox-releases/releases/download/v0.0.3-alpha/Vox.dmg"
+        sparkle:edSignature="RX+arslTX3C/FmWYiuwByANaVC35js+lTugVqOHPNKcQWhF2FaU30oHYkyiJjykpL7lGGMadnl6B93cl84UmAA==" length="3154395"
+        length="3154395"
         type="application/octet-stream" />
     </item>
   </channel>
